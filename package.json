@@ -1,0 +1,33 @@
+{
+  "name": "archer",
+  "version": "1.0.0",
+  "description": "Simple promise wrapper around the needle nodejs request API.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:sauce-apps/archer.git"
+  },
+  "keywords": [
+    "needle",
+    "request",
+    "api",
+    "http"
+  ],
+  "author": "Chris Houghton",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^3.10.0",
+    "needle": "^0.10.0",
+    "when": "^3.7.3"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-mocha-test": "^0.12.7",
+    "grunt-shell": "^1.1.2",
+    "mocha": "^2.2.5",
+    "mocha-unfunk-reporter": "^0.4.0"
+  }
+}
