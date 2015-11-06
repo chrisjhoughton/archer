@@ -4,7 +4,11 @@ Simple promise wrapper around the [Needle](https://github.com/tomas/needle) API.
 
 ## Installation
 
-Install via NPM: `npm install archer-node --save`
+Install via NPM: 
+
+```
+npm install archer-node --save
+```
 
 And require it into your modules
 
