@@ -22,7 +22,9 @@ Pass the same arguments as you would to Needle, but exclude the callback, instea
 Note that `spread` is recommended as the promise is resolved as an array of arguments (`response` and `body`).
 
 ```js
-archer.get('https://us5.api.mailchimp.com/schema/3.0/Lists/Instance.json').spread(function (res, body) {
+archer.get('https://us5.api.mailchimp.com/schema/3.0/Lists/Instance.json')
+
+.spread(function (res, body) {
   console.log(res.statusCode, body);
 });
 ```
