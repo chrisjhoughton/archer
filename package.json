@@ -1,5 +1,5 @@
 {
-  "name": "archer",
+  "name": "archer-node",
   "version": "1.0.0",
   "description": "Simple promise wrapper around the needle nodejs request API.",
   "main": "lib/index.js",
